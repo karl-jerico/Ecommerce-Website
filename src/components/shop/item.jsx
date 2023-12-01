@@ -3,7 +3,7 @@ import React from 'react'
 const Item = (props) => {
   return (
     <section className="item">
-        <img src={props.image} alt="" />
+        <img src={props.image} alt="item" />
         <p>{props.name}</p>
         <div className="item-prices">
             <div className="item-price-new">
