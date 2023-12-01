@@ -4,7 +4,7 @@ import Item from '@/components/shop/item'
 
 const NewCollections = () => {
   return (
-    <div className="new-collections">
+    <section className="new-collections">
         <h1>NEW COLLECTIONS</h1>
         <hr />
         <div className="collections">
@@ -13,7 +13,7 @@ const NewCollections = () => {
                 image={item.image} new_price={item.new_price} old_price={item.old_price} />
             })}
         </div>
-    </div>
+    </section>
   )
 }
 
