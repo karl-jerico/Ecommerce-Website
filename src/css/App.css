@@ -3,6 +3,7 @@
 @import url(./components/item.css);
 @import url(./components/popular.css);
 @import url(./components/offer.css);
+@import url(./components/newCollections.css);
 
 *{
     margin: 0;
