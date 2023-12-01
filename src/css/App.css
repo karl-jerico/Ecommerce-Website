@@ -1,4 +1,5 @@
 @import url(./layout/navbar.css);
+@import url(./layout/footer.css);
 @import url(./components//shop/hero.css);
 @import url(./components/shop/item.css);
 @import url(./components/shop/newCollections.css);

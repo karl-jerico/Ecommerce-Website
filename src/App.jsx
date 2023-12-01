@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Shop from './pages/shop';
 import ShopCategory from './pages/shopCategory';
 import Product from './pages/product';
+import Footer from './components/layouts/footer';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           </Route>   
           <Route path="/cart" element={<cart />} />
           <Route path="/login" element={<loginSignup />} />
-        </Routes>      
+        </Routes>
+        <Footer/> 
       </BrowserRouter>
     </div>
   );
