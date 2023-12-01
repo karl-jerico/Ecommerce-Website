@@ -4,7 +4,7 @@ import Item from '@/components/shop/item'
 
 const Popular = () => {
   return (
-    <div className="popular">
+    <section className="popular">
         <h1>POPULAR IN WOMEN</h1>
         <hr />
         <div className="popular-item">
@@ -13,7 +13,7 @@ const Popular = () => {
                 image={item.image} new_price={item.new_price} old_price={item.old_price} />
             })}
         </div>
-    </div>
+    </section>
   )
 }
 

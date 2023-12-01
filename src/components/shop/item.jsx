@@ -2,8 +2,8 @@ import React from 'react'
 
 const Item = (props) => {
   return (
-    <div className="item">
-        <img src={props.image} alt="" />
+    <section className="item">
+        <img src={props.image} alt="item" />
         <p>{props.name}</p>
         <div className="item-prices">
             <div className="item-price-new">
@@ -13,7 +13,7 @@ const Item = (props) => {
                 ${props.old_price}
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 
