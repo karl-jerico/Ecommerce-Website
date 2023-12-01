@@ -1,4 +1,4 @@
-@import url(./pages/navbar.css);
+@import url(./layout/navbar.css);
 @import url(./components/hero.css);
 @import url(./components/item.css);
 @import url(./components/popular.css);
