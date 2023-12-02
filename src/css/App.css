@@ -6,6 +6,7 @@
 @import url(./components/shop/offer.css);
 @import url(./components/shop/popular.css);
 @import url(./components/shop/newsletter.css);
+@import url(./components/shopCategory/shopCategory.css);
 
 *{
     margin: 0;
