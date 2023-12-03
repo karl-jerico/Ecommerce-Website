@@ -7,6 +7,7 @@
 @import url(./components/shop/popular.css);
 @import url(./components/shop/newsletter.css);
 @import url(./components/shopCategory/shopCategory.css);
+@import url(./components/loginSignup/loginSignup.css);
 
 *{
     margin: 0;

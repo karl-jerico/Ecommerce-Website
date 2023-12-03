@@ -8,6 +8,7 @@ import Footer from './components/layouts/footer';
 import men_banner from './assets/banner_men.png';
 import women_banner from './assets/banner_women.png';
 import kids_banner from './assets/banner_kids.png';
+import LoginSignup from './pages/loginSignup';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             <Route path=":productId" element={<Product />} />
           </Route>   
           <Route path="/cart" element={<cart />} />
-          <Route path="/login" element={<loginSignup />} />
+          <Route path="/login" element={<LoginSignup />} />
         </Routes>
         <Footer/> 
       </BrowserRouter>
