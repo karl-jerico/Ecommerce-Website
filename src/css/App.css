@@ -12,6 +12,7 @@
 @import url(./components/products/productdisplay.css);
 @import url(./components/products/descriptionbox.css);
 @import url(./components/products/relatedproducts.css);
+@import url(./components/cart/cartitem.css);
 
 *{
     margin: 0;
