@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Item = (props) => {
   return (
     <section className="item">
-        <img src={props.image} alt="item" />
+        <Link to={`/product/${props.id}`}><img onClick={window.scrollTo(0,0)} src={props.image} alt="item" /></Link>
         <p>{props.name}</p>
         <div className="item-prices">
             <div className="item-price-new">

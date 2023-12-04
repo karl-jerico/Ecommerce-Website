@@ -8,6 +8,10 @@
 @import url(./components/shop/newsletter.css);
 @import url(./components/shopCategory/shopCategory.css);
 @import url(./components/loginSignup/loginSignup.css);
+@import url(./components/products/breadcrum.css);
+@import url(./components/products/productdisplay.css);
+@import url(./components/products/descriptionbox.css);
+@import url(./components/products/relatedproducts.css);
 
 *{
     margin: 0;
